@@ -1,11 +1,4 @@
-import { connectDB } from "../../utils/database";
-
-export default async function Home() {
-  // const client = await connectDB;
-  // const db = client.db("forum");
-  // let result = await db.collection("post").find().toArray();
-  // console.log(result);
-
+export default function Home() {
   return (
     <div>
       <h4 className="title">Next.js App</h4>
